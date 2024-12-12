@@ -11,7 +11,7 @@ class Give extends BaseCommand {
   }
 
   allowOwnerOnly() {
-    return true
+    return false
   }
 
   perform(player, args) {
